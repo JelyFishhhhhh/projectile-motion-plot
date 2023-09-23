@@ -1,5 +1,5 @@
 # Projectile Motion Plot
-# => Project on GitHub (https://github.com/JelyFishhhhhh/projectile-motion-plot)
+# ::: Project on GitHub (https://github.com/JelyFishhhhhh/projectile-motion-plot) :::
 
 import numpy as np
 import matplotlib.pylab as plt
@@ -46,5 +46,5 @@ for rad in theta:
     plt.text(x= x_coordinate[int((len(x_coordinate)- 1)/ 2)], y= y_coordinate[int((len(y_coordinate)- 1)/ 2)], s= f"{int(round(degrees(rad), 0))}°")
 
 # save-N-show
-plt.savefig("result.png") # save plot
-plt.show() # show plt
+plt.savefig("result.png")
+plt.show()
