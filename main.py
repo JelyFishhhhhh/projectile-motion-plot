@@ -1,4 +1,6 @@
 # Projectile Motion Plot
+# => Project on GitHub (https://github.com/JelyFishhhhhh/projectile-motion-plot)
+
 import numpy as np
 import matplotlib.pylab as plt
 from math import pi, degrees
