@@ -9,6 +9,7 @@ from math import pi, degrees
 plt.title("Physics Bonus HomeWork")
 plt.xlabel("x(m)")
 plt.ylabel("y(m)")
+
 # init constants
 v = 50
 g = 9.8
@@ -19,6 +20,7 @@ for rad in theta:
     # init x, y coordinates
     x_coordinate= []
     y_coordinate= []
+
     # timeline
     times = np.linspace(start=0, stop= 50, num= 5000)
     
@@ -41,7 +43,7 @@ for rad in theta:
     # plot
     plt.plot(x_coordinate, y_coordinate, "#578891") # plt with same color (#578891)
     # plt.plot(x_coordinate, y_coordinate) # plt with different color
-    plt.text(x= x_coordinate[int((len(x_coordinate)-1)/2)], y= y_coordinate[int((len(y_coordinate)-1)/2)], s= f"{int(round(degrees(rad), 0))}°")
+    plt.text(x= x_coordinate[int((len(x_coordinate)- 1)/ 2)], y= y_coordinate[int((len(y_coordinate)- 1)/ 2)], s= f"{int(round(degrees(rad), 0))}°")
 
 # save-N-show
 plt.savefig("result.png") # save plot
